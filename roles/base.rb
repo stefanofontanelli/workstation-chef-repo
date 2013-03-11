@@ -12,7 +12,7 @@ override_attributes(
   "authorization" => {
     "sudo" => {
       "groups" => ["admin", "wheel"],
-      "users" => ["USERNAME"],
+      "users" => ["stefanofontanelli"],
       "passwordless" => true
     }
   },
@@ -33,11 +33,11 @@ override_attributes(
     # and the keys of the gems hash.
     "user_installs" => [
       {
-        "user" => "USERNAME",
-        "rubies" => ["1.9.3-p194"],
-        "global" => "1.9.3-p194",
+        "user" => "stefanofontanelli",
+        "rubies" => ["1.9.3-p374"],
+        "global" => "1.9.3-p374",
         "gems" => {
-          "1.9.3-p194" => [
+          "1.9.3-p374" => [
             # RubyGems
             {"name" => "bundler", "version" => "1.1.1"},
             {"name" => "gem-man"},

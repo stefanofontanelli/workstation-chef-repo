@@ -4,24 +4,36 @@
     // Applications installed using the dmg_package LWRP.
     "Dropbox": {
       "volumes_dir": "Dropbox Installer",
-      "url": "http://cdn.dropbox.com/Dropbox%201.1.35.dmg",
-      "checksum": "8754ce45555c65dfdda4691e4d78b0d7df5315fcf42c86f90c6a03f2c78d9b5e"
+      "url": "http://cdn.dropbox.com/Dropbox%201.6.17.dmg",
+      "checksum": "e80f8974b1759f85f98c43c5ba8784f400ff9da507cf73077c2366c15bb04e33"
     },
-    "Adium": {
-      "volumes_dir": "Adium 1.4.2",
-      "url": "http://download.adium.im/Adium_1.4.2.dmg",
-      "checksum": "c504c84122433dc4fcc48a05dcb6b6f3e325527e5ee3c2ef2a2c35de11b6aeb3"
+    "Skype": {
+      "volumes_dir": "Skype",
+      "url": "http://www.skype.com/go/getskype-macosx.dmg",
+      "checksum": "fb47c562873429142e889193f16ab8eaefb576d1cb3122003e014dcaad25b511"
     },
-    "Chicken of the VNC": {
-      "volumes_dir": "Chicken of the VNC",
-      "dmg_name": "cotvnc-20b4",
-      "url": "http://downloads.sourceforge.net/project/cotvnc/cotvnc/Chicken%20of%20the%20VNC%202.0b4/cotvnc-20b4.dmg",
-      "checksum": "804b80372c6ac862f4e3f1230ce846c8daf7897aaa029190521a613e615e5604"
+    "Firefox": {
+      "url": "http://download.cdn.mozilla.net/pub/mozilla.org/firefox/releases/19.0.2/mac/en-US/Firefox%2019.0.2.dmg",
+      "checksum": "d17740256876df51da4d9627d837662f74690ac167886784e53a10dae807b7cf"
     },
-    "Emacs": {
-      "url": "http://emacsforosx.com/emacs-builds/Emacs-24.1-universal-10.6.8.dmg",
-      "checksum": "59ca3ee94a155b36c5ef60dfad6aa12d54867ab3d3edd31f1ee5e768b2ba45f7"
-    }
+    "Chrome": {
+      "volumes_dir": "Google Chrome",
+      "url": "https://dl-ssl.google.com/chrome/mac/stable/GGRM/googlechrome.dmg",
+      "checksum": "ae277530caa7c8fb5dc89fbcd748bc36e84c632372c7004ada73c9feda865430"
+    },
+    "Sublime Text": {
+      "url": "http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203012.dmg",
+      "checksum": "774c4e5af325e3057574b74f2eff4d81805a502b676ece82672870089d57fc69"
+    },
+    "KeePassX": {
+      "volumes_dir": "KeePassX-0.4.3",
+      "url": "http://heanet.dl.sourceforge.net/project/keepassx/KeePassX/0.4.3/KeePassX-0.4.3.dmg",
+      "checksum": "15ce2e950ab78ccb6956de985c1fcbf11d27df6a58ab7bf19e106f0a1dc2fedd"
+    },
+    "ClamXav": {
+      "url": "http://www.unmetered.org.uk/mmedia/ClamXav_2.3.4.dmg",
+      "checksum": "941e4eed5a92777659bc7e652e2d79ab2a5160a6044c4bbb9af8aeeefcd826fe"
+      }
   },
   "plists": [
     // Array of plist file names that get dropped off in
@@ -48,13 +60,18 @@
     "pstree": "",
     "sloccount": "",
     "tree": "",
-    "wget": ""
+    "wget": "",
+    "rbenv-gemset": "",
+    "mongodb": "",
+    "redis": "",
+    "elasticsearch": ""
   },
   "dirs": [
     // Array of directories that are created in $HOME. Create parent
     // directories of repositories or files for the user here, e.g.:
-    "bin"
-    "Development",
-    "Development/opscode"
+    "bin",
+    "Dev",
+    "Dev/opscode",
+    "Dev/Gild"
   ]
 }

@@ -1,0 +1,9 @@
+[user]
+	name = Stefano Fontanelli
+	email = s.fontanelli@gmail.com
+[core]
+	editor = vim
+[merge]
+	ff = false
+[push]
+	default = matching

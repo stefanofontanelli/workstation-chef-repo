@@ -28,8 +28,8 @@ default_attributes(
     "tmux_compiled_checksum" => "679719f2b6b35b95875d656f44d9d6f9ca15515f24eea051f0b96e20e2d89509"
   },
   "virtualbox" => {
-    "urlbase" => "http://download.virtualbox.org/virtualbox/4.1.18",
-    "url" => "http://download.virtualbox.org/virtualbox/4.1.18/VirtualBox-4.1.18-78361-OSX.dmg"
+    "urlbase" => "http://dlc.sun.com.edgesuite.net/virtualbox/4.2.8",
+    "url" => "http://dlc.sun.com.edgesuite.net/virtualbox/4.2.8/VirtualBox-4.2.8-83876-OSX.dmg"
   },
   # These attributes are used by the mac_os_x::settings recipe to
   # build dynamic data driven settings. See the mac_os_x cookbook's
